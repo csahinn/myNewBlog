@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # My New Blog
 
 Kişisel blog sitesi - Node.js ve Express ile geliştirilmiş.
@@ -88,6 +89,7 @@ myNewBlog/
 
 - `.env` dosyasını asla Git'e commit etmeyin
 - `.gitignore` dosyası zaten `.env` ve `node_modules/` içeriyor
+
 
 ## Lisans
 
