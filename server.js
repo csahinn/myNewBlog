@@ -17,24 +17,24 @@ app.use(express.static(path.join(__dirname)));
 
 // Rota: HTML dosyaları
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'));
+    res.sendFile(path.join(__dirname, 'html', 'index.html'));
 });
 
 app.get('/about', (req, res) => {
-    res.sendFile(path.join(__dirname, 'about.html'));
+    res.sendFile(path.join(__dirname, 'html', 'about.html'));
 });
 
 app.get('/contact', (req, res) => {
-    res.sendFile(path.join(__dirname, 'contact.html'));
+    res.sendFile(path.join(__dirname, 'html', 'contact.html'));
 });
 
 app.get('/blogs', (req, res) => {
-    res.sendFile(path.join(__dirname, 'blogs.html'));
+    res.sendFile(path.join(__dirname, 'html', 'blogs.html'));
 });
 
 // Blog detay sayfaları
 app.get('/blog-:name', (req, res) => {
-    res.sendFile(path.join(__dirname, `blog-${req.params.name}.html`));
+    res.sendFile(path.join(__dirname, 'html', `blog-${req.params.name}.html`));
 });
 
 // Email yapılandırması
