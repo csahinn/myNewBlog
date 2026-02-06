@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Testing Guide - Cagatay Sahin</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div id="top-bar">
+        <h1 id="main-title">Cagatay Sahin | QA Engineer</h1>
+        <div style="display: flex; align-items: center;">
+            <button id="theme-toggle" class="theme-toggle" title="Toggle dark mode">🌙</button>
+            <navbar id="main-navbar">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="blogs.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </navbar>
+        </div>
+    </div>
+
+    <div class="blog-content">
+        <h2>API Testing Guide</h2>
+        <p class="blog-date">Published on: February 2, 2026</p>
+
+        <h3>What is API Testing?</h3>
+        <p>API testing is a type of software testing that validates the functionality, reliability, performance, and security of application programming interfaces (APIs). It's essential in modern development where APIs are the backbone of application integration.</p>
+
+        <h3>Tools for API Testing</h3>
+        <p>Several tools are available for API testing: Postman for manual and automated API testing, REST Assured for Java-based testing, and Requests library for Python. Each tool has its strengths and use cases.</p>
+
+        <h3>Testing HTTP Methods</h3>
+        <p>APIs commonly use HTTP methods like GET, POST, PUT, DELETE, and PATCH. Each method serves a different purpose, and your tests should validate that these methods behave correctly with proper status codes and response payloads.</p>
+
+        <h3>Validating Response Data</h3>
+        <p>Response validation is critical in API testing. Check for correct data types, validate JSON/XML structure, verify field values, and ensure error responses contain helpful messages. Use assertions and schemas to automate these checks.</p>
+
+        <h3>Authentication and Security</h3>
+        <p>APIs often require authentication using tokens, API keys, or OAuth. Your tests should cover authentication scenarios, security headers, and ensure sensitive data is handled properly.</p>
+
+        <h3>Performance Testing APIs</h3>
+        <p>Monitor response times, test under load, and identify bottlenecks. Tools like JMeter can help simulate multiple API requests to ensure your API performs well under stress.</p>
+
+        <h3>Best Practices</h3>
+        <ul>
+            <li>Test all HTTP methods and status codes</li>
+            <li>Use realistic test data</li>
+            <li>Implement comprehensive error handling tests</li>
+            <li>Automate API tests in your CI/CD pipeline</li>
+            <li>Document test cases thoroughly</li>
+        </ul>
+
+        <h3>Conclusion</h3>
+        <p>API testing is a critical component of quality assurance. By following best practices and using the right tools, you can ensure your APIs are reliable, secure, and performant.</p>
+
+    <script src="/js/theme.js"></script>
+        <a href="blogs.html" class="back-link">← Back to Blogs</a>
+    </div>
+
+</body>
+</html>
